@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css'
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import { BrowserRouter } from "react-router-dom";
 
-import Menu from '../components/layout/Menu';
-import Content from '../components/layout/Content';
+import Menu from "../components/layout/Menu";
+import Content from "../components/layout/Content";
 
-const App = () =>  {
+export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
@@ -15,5 +15,3 @@ const App = () =>  {
     </div>
   );
 }
-
-export default App;
